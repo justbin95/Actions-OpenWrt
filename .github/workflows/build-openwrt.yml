@@ -35,7 +35,8 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    timeout-minutes: 720 # 自己加时间
 
     steps:
     - name: Checkout
